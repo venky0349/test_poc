@@ -1,0 +1,8 @@
+---
+- hosts: dev2
+  tasks:
+    - name: Copying source code to target env
+      copy:
+        src: '/var/lib/jenkins/workspace/test_API/
+        dest: '/app/bin/artifacts/'
+        remort_src: no
