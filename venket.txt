@@ -1,0 +1,7 @@
+1. create one more server
+2. add server IP, user name and password in jenkins server (vi /etc/ansible/hosts)
+3. ping that server from jenkins server (ansible -m ping server name)
+4. create one directory from target server like /app/bin
+5. add some files under github test_poc repo like your project structure
+6. run the pipelines test_API
+7. check the date is moved or not
